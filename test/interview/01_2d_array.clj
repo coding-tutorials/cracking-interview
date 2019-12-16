@@ -34,7 +34,7 @@
         v-length (count array)
         hourglasses (loop-hourglasses-horizontal h-length v-length)
         sums (map #(sum-hourglass %) hourglasses)]
-    (println hourglasses)
+    ;(println hourglasses)
     sums))
 
 (defn solution []

@@ -8,6 +8,5 @@
         grouped-socks-pairs (map #(quot % 2) grouped-socks-count)]
     (reduce + grouped-socks-pairs)))
     
-(defn execute [n ar]
-  (-> (find-pairs ar)
-    (:pairs)))
+(defn execute [_ ar]
+  (find-pairs ar))
