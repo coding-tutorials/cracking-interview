@@ -1,4 +1,5 @@
-(ns crackin.array-hourglass)
+;https://www.hackerrank.com/challenges/2d-array
+(ns crackin.array-2d)
 
 (defn read-hourglass [v h lists]
   (let [a-row (drop h (nth lists (+ 0 v)))
