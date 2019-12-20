@@ -1,3 +1,4 @@
+;https://www.hackerrank.com/challenges/max-array-sum
 (ns crackin.dynamic-maxarray)
 
 (defn execute [arr]

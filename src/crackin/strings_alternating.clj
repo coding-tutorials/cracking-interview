@@ -1,3 +1,4 @@
+;https://www.hackerrank.com/challenges/alternating-characters
 (ns crackin.strings-alternating)
 
 (defn execute [s]
